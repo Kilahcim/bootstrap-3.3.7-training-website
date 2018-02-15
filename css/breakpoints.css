@@ -1,0 +1,128 @@
+@media (max-width: 380px) {
+  #myCarousel .carousel-caption h1 {
+    font-size: 15px;
+
+  }
+  #myCarousel .carousel-caption p {
+    font-size: 10px;
+
+  }
+  #myCarousel .carousel-caption {
+    position: absolute;
+    bottom: 10px;
+  }
+
+ .navbar-default .navbar-nav>li>a {
+   font-size: 10px;
+   margin-bottom: 0;
+   border: 1px solid orange;
+ }
+.navbar-default .navbar-collapse  {
+   background-color: #fff;
+   padding-left: 0;
+   padding-right: 0;
+ }
+ .navbar-nav {
+   margin: -1px 0px 0 0;
+ }
+
+ .grid-test h3{
+   font-size: 20px;
+ }
+ .grid-test p {
+   font-size: 10px;
+   padding: 0 2em 0 2em;
+ }
+ .grid-test button {
+   margin: 1em 0 1em 0;
+ }
+ .grid-test .circle {
+   height: 50px;
+   width: 50px;
+ }
+ .grid-test .icon-circle{
+   position: absolute;
+   top: 16%;
+   right: 16%;
+   font-size: 32px;
+ }
+ .grid-test .icon-squere {
+    position: absolute;
+    top: 13%;
+    right: 15%;
+    font-size: 32px;
+  }
+  section.portfolio [alt="Logo"] {
+    max-height: 90px;
+    max-width: 108px;
+  }
+  section.news p {
+    padding: 0;
+  }
+  section.news img {
+    margin-right: 15px;
+  }
+  section.news p a {
+    margin-right: 20px;
+  }
+  section.news h2 {
+    font-size: 20px;
+  }
+  section.news h3 {
+    font-size: 14px;
+  }
+  section.news p {
+    font-size: 12px;
+  }
+  footer .col-xs-3 p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 450px) {
+  section.slider h1 {
+    font-size: 24px;
+  }
+  section.slider p {
+    font-size: 16px;
+  }
+  section.grid-test {
+    font-size: 12px;
+  }
+  section.portfolio {
+    font-size: 12px;
+  }
+
+  section.portfolio .img {
+    width: 125px;
+    height: 90px;
+    /* margin: auto; */
+  }
+  section.portfolio .img img  {
+    max-height: 90px;
+    max-width: 125px;
+    padding: 5px;
+  }
+  section.portfolio [alt="Logo"] {
+    max-height: 90px;
+    max-width: 105px;
+  }
+  section.portfolio .portfolio-stuff{
+    height: 90px;
+    width: 125px;
+    margin: auto;
+  }
+  footer button:first-of-type {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  section.news .col-xs-12 {
+    padding: 0 100px 0 100px;
+  }
+}
+
+@media (min-width: 529px) and (max-width: 764px) {
+  .grid-test p {
+    padding: 0  5.4em 0 5.4em;
+  }
+
+}

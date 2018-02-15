@@ -1,0 +1,240 @@
+section.slider img {
+  width: 100%;
+  max-height: 100vh;
+  filter:
+    blur(5px)
+    grayscale(100%);
+}
+
+section, footer {
+  max-width: 100vw;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+section.slider {
+  padding-bottom: 0;
+    padding-top: 0;
+}
+nav .container {
+  border-bottom: 1px solid orange;
+}
+.navbar-default {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-radius: 0px;
+  font-weight: 700;
+ }
+
+ .navbar-header a:hover {
+   color: orange;
+ }
+ .navbar-default .navbar-toggle {
+   border-color: orange;
+ }
+ .navbar-default .navbar-toggle .icon-bar  {
+   border-bottom: 1px solid orange;
+   background-color: orange;
+ }
+ .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:hover {
+   background-color: transparent;
+ }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+  }
+ .navbar-default .navbar-nav>li>a {
+   color: orange;
+   margin-bottom: 10px;
+   border: 1px solid transparent;
+ }
+ .navbar-default .navbar-nav>li>a:hover {
+   border: 1px solid orange;
+   color: orange;
+ }
+ .navbar-default .navbar-brand {
+   color: orange;
+   font-size: 44px;
+ }
+ .navbar-default .navbar-brand:hover ,.navbar-default .navbar-brand:focus {
+   color: orange;
+ }
+
+.logo {
+  font-family: 'Dancing Script', cursive;
+}
+
+#myCarousel .carousel-caption {
+  color: orange;
+}
+#myCarousel .carousel-indicators li {
+  border: 1px solid orange;
+}
+#myCarousel .carousel-indicators .active {
+  background-color: orange;
+}
+
+.grid-test {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding-top: 5rem;
+}
+
+.grid-test .circle {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  margin: auto;
+  position: relative;
+  box-shadow: 0 0 8px black;
+}
+.grid-test p {
+  padding: 1.4em;
+}
+.grid-test button {
+  margin-top: 2em;
+}
+.grid-test .icon-circle {
+  position: absolute;
+  top: 23%;
+  right: 23%;
+  font-size: 40px;
+}
+.grid-test .icon-squere {
+  position: absolute;
+  top: 20%;
+  right: 21%;
+  font-size: 40px;
+}
+.grid-test button {
+  margin-bottom: 3rem;
+}
+section.portfolio {
+  border-bottom: 1px solid #ababab;
+
+}
+section.portfolio h3 {
+  margin-top: 0;
+}
+section.portfolio a {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #c2464e;
+}
+
+section.portfolio .tex-center p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+section.portfolio .img {
+  box-shadow: 0 0 3px black;
+  width: 200px;
+  height: 150px;
+  margin: auto;
+  margin-top: 1.5em;
+}
+section.portfolio .img img {
+  max-height: 150px;
+  max-width: 200px;
+  padding: 5px;
+}
+.padding-col {
+  padding-bottom: 20px;
+}
+
+section.portfolio [alt="Logo"] {
+  max-height: 150px;
+  max-width: 200px;
+}
+section.portfolio .portfolio-stuff{
+  width: 200px;
+  height: 150px;
+  margin: auto;
+  margin-top: 35px;
+}
+section.portfolio .portfolio-stuff img{
+  transform: scale(1.5);
+}
+
+
+/* SECTION PROFIL ? BLOG ? */
+section.news h2 {
+  font-weight: 700;
+
+}
+section.news h3 {
+  font-family: 'Kavivanar', cursive;
+
+}
+section.news img {
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+section.news p {
+  font-family: 'Kavivanar', cursive;
+  padding: 0 70px 0 70px ;
+}
+section.news .col-xs-8:nth-child(2) h3 ,time{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #a0a0a0;
+}
+section.news .col-xs-8:nth-child(2) span{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #c2464e;
+}
+
+
+footer .col-xs-3 p  {
+  font-size: 20px;
+  color: #a0a0a0;
+}
+footer .row {
+  margin:0;
+}
+footer .buttons {
+  margin: auto;
+}
+footer .col-xs-12 button {
+  margin-top: 20px;
+  height: 30px;
+  width: 200px;
+}
+footer .col-xs-12:last-child p{
+  margin-top: 20px;
+  color: black;
+
+}
+footer .col-xs-12:last-child span{
+  color: orange;
+}
+/* Style all font awesome icons */
+.fa {
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+
+    color: white;
+}
